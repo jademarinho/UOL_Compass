@@ -1,0 +1,8 @@
+SELECT ven.cdvdd, vdd.nmvdd
+FROM tbvendas as ven
+	LEFT JOIN tbvendedor as vdd
+	ON ven.cdvdd = vdd.cdvdd 
+	WHERE status = 'Concluído'
+GROUP BY vdd.nmvdd 
+	ORDER BY COUNT(ven.status = 'Concluído') DESC
+	LIMIT 1

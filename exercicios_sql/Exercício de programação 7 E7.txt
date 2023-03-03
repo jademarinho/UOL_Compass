@@ -1,0 +1,6 @@
+SELECT aut.nome
+FROM autor AS aut
+	LEFT JOIN livro AS liv
+	ON liv.autor = aut.codautor 
+GROUP BY codautor 
+HAVING COALESCE (count(liv.autor), 0) = 0

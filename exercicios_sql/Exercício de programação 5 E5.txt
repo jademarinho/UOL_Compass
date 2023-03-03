@@ -1,0 +1,10 @@
+SELECT aut.nome
+FROM livro AS liv
+	LEFT JOIN autor AS aut
+		ON liv.autor = aut.codautor 
+	LEFT JOIN editora AS edi
+		ON liv.editora = edi.codeditora
+	LEFT JOIN endereco as ende
+		ON edi.endereco = ende.codendereco
+WHERE ende.estado <> 'PARANÁ' OR 'RIO GRANDE DO SUL' OR 'SANTA CATARINA'
+GROUP BY autor

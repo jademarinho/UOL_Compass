@@ -1,0 +1,6 @@
+SELECT aut.nome, codautor, nascimento, COALESCE (count(liv.autor), 0) as quantidade
+FROM autor AS aut
+	LEFT JOIN livro AS liv
+	ON liv.autor = aut.codautor 
+GROUP BY codautor
+ORDER BY aut.nome
