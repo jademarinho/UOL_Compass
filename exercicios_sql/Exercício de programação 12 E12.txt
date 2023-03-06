@@ -1,0 +1,10 @@
+SELECT dep.cddep, dep.nmdep, dep.dtnasc, SUM(ven.vrunt * ven.qtd) as valor_total_vendas
+FROM tbvendas as ven
+	LEFT JOIN tbvendedor as vdd
+	ON ven.cdvdd = vdd.cdvdd 
+	LEFT JOIN tbdependente as dep
+	ON ven.cdvdd = dep.cdvdd 
+	WHERE status = 'Concluído'
+GROUP BY vdd.nmvdd 
+ORDER BY valor_total_vendas
+LIMIT 1
