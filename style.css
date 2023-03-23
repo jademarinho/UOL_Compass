@@ -1,0 +1,129 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin: 1rem 0;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+  }
+  
+  h4 {
+    font-size: 1.2rem;
+  }
+  
+  h5 {
+    font-size: 1rem;
+  }
+  
+  h6 {
+    font-size: 0.8rem;
+  }
+  
+  /* Cores */
+  a {
+    color: #007aff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .primary {
+    color: #007aff;
+  }
+  
+  .secondary {
+    color: #555;
+  }
+  
+  .bg-primary {
+    background-color: #007aff;
+    color: #fff;
+  }
+  
+  .bg-secondary {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Layout */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .section {
+    margin: 2rem 0;
+  }
+  
+  .section-header {
+    margin-bottom: 1rem;
+  }
+  
+  .section-header h2 {
+    display: inline-block;
+    border-bottom: 2px solid #007aff;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .section-content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .section-content li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .skill {
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #007aff;
+    border-radius: 2rem;
+    font-size: 0.9rem;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 600px) {
+    .container {
+      padding: 1rem;
+    }
+    
+    .skill {
+      font-size: 0.8rem;
+      margin-right: 0.5rem;
+      margin-bottom: 0.5rem;
+      padding: 0.3rem 0.8rem;
+    }
+  }
+  
