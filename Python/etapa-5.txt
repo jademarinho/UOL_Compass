@@ -2,7 +2,7 @@ Harrison Ford: 4871.70
 Samuel L. Jackson: 4772.80
 Morgan Freeman: 4468.30
 Tom Hanks: 4340.80
-Roberts Downey Jr.: 3947.30
+Robert Downey Jr.: 3947.30
 Eddie Murphy: 3810.40
 Tom Cruise: 3587.20
 Johnny Depp: 3368.60
