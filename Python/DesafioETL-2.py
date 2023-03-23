@@ -2,7 +2,7 @@ with open('actors.csv', 'r') as file:
     lines = file.readlines()
 
 # Arruma o nome do IronMan
-lines = [line.replace('"Robert Downey, Jr."', 'Roberts Downey Jr.') for line in lines]
+lines = [line.replace('"Robert Downey, Jr."', 'Robert Downey Jr.') for line in lines]
 
 headers = lines[0].strip().split(',')
 data = [] #Armazenar o dicionario
