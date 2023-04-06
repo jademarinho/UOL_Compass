@@ -28,3 +28,9 @@ Ler livros de ficção, webtoons, ver series, confeitaria e modelos 3d VR. Gosto
 - [x] Finalizado a parte designada do curso de **Programação Python do básico ao avançado**, o curso é bem completo e com muitas aplicações práticas. 
 
 - [x] A seção de exercicios é bem completa e a dificuldade vai aumentando gradativamente. Pelo fato de não poder usar os modulos no ETL dificultou bastante, mas ajudou para fixar alguns conhecimentos.
+
+## Sprint 4
+
+- [x] Quanto a **Programação Funcional**, me identifico com as práticas, com a simplicidade e a fácil leitura do código. O fato do conteúdo estar escrito no lugar de video nao atrapalha a compreenção, muito pelo contrário, só exercita a compreenção porque na maioria das vezes a gente vai ter que ler para resolver os problemas que vão aparecer no nosso futuro profissional. (principalmente no stac koverflow)
+- [x] **Docker** foi uma materia dificil de compreender mas fácil de se aplicar, terminal não me intimida mais a esse ponto. 
+- [x] Eu sou apaixonada por matemática aplicada e **Estatística Descritiva** pra mim foi o ponto alto dessa sprint, mas sinto que deveria ter exercícios no data e analytics para desenvolver sobre. 
