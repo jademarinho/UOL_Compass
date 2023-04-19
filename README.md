@@ -34,3 +34,7 @@ Ler livros de ficção, webtoons, ver series, confeitaria e modelos 3d VR. Gosto
 - [x] Quanto a **Programação Funcional**, me identifico com as práticas, com a simplicidade e a fácil leitura do código. O fato do conteúdo estar escrito no lugar de video nao atrapalha a compreenção, muito pelo contrário, só exercita a compreenção porque na maioria das vezes a gente vai ter que ler para resolver os problemas que vão aparecer no nosso futuro profissional. (principalmente no stac koverflow)
 - [x] **Docker** foi uma materia dificil de compreender mas fácil de se aplicar, terminal não me intimida mais a esse ponto. 
 - [x] Eu sou apaixonada por matemática aplicada e **Estatística Descritiva** pra mim foi o ponto alto dessa sprint, mas sinto que deveria ter exercícios no data e analytics para desenvolver sobre. 
+
+## Sprint 5
+
+- [x] Nessa sprint exploramos diversos cursos da AWS com o objetivo de tirar a certificação, em geral quase todo o curso foi teorico com excessão do **Cloud Quest** que tinha algumas partes praticas. Finalizamos 4 cursos como o **Sales Accreditation (Business) e (Technical), Cloud Economics e o Exam Prep**. 
