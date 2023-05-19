@@ -1,0 +1,2 @@
+Esse código foi feito em conjunto com todas as squads. A gente acompanhou, ensinou, aprendeu e palpitou tudo em stream com a maquina virtual da Marina, foi um codigo feito a quase 10 mãos.
+Desculpa não dar tempo em executar TUDO(fiz parcialmente na minha maquina) na minha maquina mas ainda tenho outros exercicios para concentrar para realizar.

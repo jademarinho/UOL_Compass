@@ -38,3 +38,7 @@ Ler livros de ficção, webtoons, ver series, confeitaria e modelos 3d VR. Gosto
 ## Sprint 5
 
 - [x] Nessa sprint exploramos diversos cursos da AWS com o objetivo de tirar a certificação, em geral quase todo o curso foi teorico com excessão do **Cloud Quest** que tinha algumas partes praticas. Finalizamos 4 cursos como o **Sales Accreditation (Business) e (Technical), Cloud Economics e o Exam Prep**. 
+
+##Sprint 6 e 7
+
+- [x] Como nessa sprint tivemos indisponibilidade com a AWS, foi uma sprint longa e muito dificil, a ordem importa quando se realiza os exercicios e fazer fora de ordem trouxe complicações para os resultados. Fizemos diversos cursos preparatorios para AWS, Hadoop e PySpark. A exaustação atingiu maioria dos participantes, os testes no AWS eram extensos e tinha pouco tempo para executar, dando prioridade para execução dos exercicios. Foi complicado acompanhar os tutoriais em PDF. No final deu quase tudo certo, mas o tempo ficou apertado.
