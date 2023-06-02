@@ -1,0 +1,5 @@
+SELECT id, tituloPincipal, tempoMinutos, anoLancamento, genero, notaMedia, numeroVotos
+FROM moviesimport
+WHERE (tempoMinutos != 'N') AND (numeroVotos >= 15000)  AND (genero LIKE '%Action%' AND genero LIKE '%Adventure%')
+GROUP BY tituloPincipal
+ORDER BY notaMedia DESC, tempoMinutos;
