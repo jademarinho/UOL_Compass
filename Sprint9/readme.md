@@ -51,10 +51,12 @@ Aqui um dos crawlers executados com sucesso e suas configs. [link](Desafio\Sprin
 
 Com isso as databases csv e json vão estar aptas a serem vistas no AWS Athena para realizar os demais refinamentos.
 
-Com meu objetivo em mente selecionei as tabelas relacionadas as minhas pesquisas e criei as views localmente para gerar o Diagrama das tabelas para análise futura. [link](Desafio\Sprint9\Tarefa4\modRefined.jpg)
+Com meu objetivo em mente selecionei as tabelas relacionadas as minhas pesquisas e criei as views localmente para gerar o Diagrama das tabelas para análise futura. [link](Desafio\Sprint9\Tarefa4\modRefined.jpg) 
 
 Aqui o codigo SQL que cria a nova tabela refinada com o JOIN necessário de csv com a json para análise. [link](Desafio\Sprint9\Tarefa4\joincsvjson6.sql)
 Notas: função CAST para alterar os data types e poder realizar os cálculos nas análises futuras.
+
+Modelo dimensional seria as Dimensões 'tempominutos', 'anolancamento', 'decada' e as medidas são 'vote_average', 'vote_count'. [Tempo x Votos]
 
 Aqui esta as queries SQL que usei para VIEW os dados no AWS Athena e conferir se os dados estavam vindo como esperados.
 *Extra: para minha surpresa o banco de dados CSV possui mais votos que o banco de dados JSON resultante da API.*
