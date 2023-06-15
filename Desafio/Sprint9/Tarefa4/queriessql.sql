@@ -16,6 +16,12 @@ SELECT tempominutos, AVG(vote_average) AS media_notas, AVG(vote_count) AS media_
 FROM todos_os_dados
 GROUP BY tempominutos;
 
+-- vw_analise_ano - Ano lancamento relacionando a media e a media votos.
+
+SELECT anolancamento, AVG(vote_average) AS media_notas, AVG(vote_count) AS media_votos
+FROM todos_os_dados
+GROUP BY anolancamento;
+
 -- Atualizar notas e numero de votos do json 
 
 SELECT tituloprincipal, tempominutos, anolancamento, vote_average, vote_count
