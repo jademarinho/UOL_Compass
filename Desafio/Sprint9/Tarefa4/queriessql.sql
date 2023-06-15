@@ -10,6 +10,12 @@ ORDER BY id
 
 -----------------
 
+-- vw_analise_tempo - Tempo minutos relacionado a nota media e a media de votos.
+
+SELECT tempominutos, AVG(vote_average) AS media_notas, AVG(vote_count) AS media_votos
+FROM todos_os_dados
+GROUP BY tempominutos;
+
 -- Atualizar notas e numero de votos do json 
 
 SELECT tituloprincipal, tempominutos, anolancamento, vote_average, vote_count

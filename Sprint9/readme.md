@@ -1,4 +1,3 @@
-
 ### Tarefa 1: Modelagem Relacional - Normalização
 
 1. Primeiro criamos as tabelas de interesse, no meu caso criei (Clientes, Carros, Combustiveis, Vendedores, Locacoes) com os itens a serem normalizados e subsequentemente o data type adequado para a informaçãoo que ia ser armazenada. [link](tarefa1/tarefa1create.sql) Caso ela seja alguma das chaves (primaria ou estrangeira), ela precisa ser referenciada.
@@ -56,6 +55,8 @@ Com meu objetivo em mente selecionei as tabelas relacionadas as minhas pesquisas
 
 Aqui o codigo SQL que cria a nova tabela refinada com o JOIN necessario de csv com a json para analise.[link](Desafio\Sprint9\Tarefa4\joincsvjson6.sql)
 Notas: função CAST para alterar os data types e poder realizar os calculos nas analises futuras.
+
+As Dimensões são 'tempominutos', 'ano, 'decada' e as Medidas são 'vote_average' e 'vote_count'. [Tempo x Notas]
 
 Aqui esta as queries SQL que usei para VIEW os dados no AWS Athena e conferir se os dados estavam vindo como esperados.
 *Extra: para minha surpresa o banco de dados CSV possui mais votos que o banco de dados JSON resultante da API.*

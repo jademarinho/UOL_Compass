@@ -11,7 +11,7 @@ Trabalhei no suporte do Censo Agropecuario 2017 no IBGE e já tive uma empresa d
 ### Meus hobbies
 Ler livros de ficção, webtoons, ver series, confeitaria e modelos 3d VR. Gosto muito de aprender coisas nos tempos vagos, atualmente estou aprendendo japonês e salesforce.
 
-## Sprint 1: 
+## Sprint  1: 
 
 - [x] Na primeira Sprint aprendi **Git e Github**, achei bem organizado a intuitivo, aprendi a subir pastas, codigos e trabalhar em equipe no codigo. 
 - [x] No curso de Administração de **Sistemas GNU/Linux**, vi como funciona Linux na prática, instalar pacotes, fazer shell script, administrar usuários e grupos, programar backup, não achei intuitivo mas achei prático.
@@ -46,3 +46,7 @@ Ler livros de ficção, webtoons, ver series, confeitaria e modelos 3d VR. Gosto
 ## Sprint 8
 
 - [x] Nessa Sprint aplicamos quase todos os conhecimentos adquiridos nos sprints anteriores, como docker, enviar pelo boto3, spark, ler csv e principalmente buscar dados pela API do TMDB e anexar ao data frame, gerar o JSON, funções IAM, Lambda do AWS.
+
+## Sprint 9
+
+- [x] Nessa sprint pesquisamos e fizemos muito no AWS Glue, Athena e S3 para realizarmos o desafio, bem como aplicamos conhecimentos de modelagem relacional e modelagem dimensional nos exercicios propostos. 
