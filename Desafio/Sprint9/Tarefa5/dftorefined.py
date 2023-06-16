@@ -13,22 +13,60 @@ job = Job(glueContext)
 job.init(args["JOB_NAME"], args)
 
 # Script generated for node AWS Glue Data Catalog
-AWSGlueDataCatalog_node1686775870407 = glueContext.create_dynamic_frame.from_catalog(
+AWSGlueDataCatalog_node1686919205366 = glueContext.create_dynamic_frame.from_catalog(
     database="csvrefined",
-    table_name="joincsvjson6",
-    transformation_ctx="AWSGlueDataCatalog_node1686775870407",
+    table_name="filme",
+    transformation_ctx="AWSGlueDataCatalog_node1686919205366",
+)
+
+# Script generated for node AWS Glue Data Catalog
+AWSGlueDataCatalog_node1686919235365 = glueContext.create_dynamic_frame.from_catalog(
+    database="csvrefined",
+    table_name="avaliacao",
+    transformation_ctx="AWSGlueDataCatalog_node1686919235365",
+)
+
+# Script generated for node AWS Glue Data Catalog
+AWSGlueDataCatalog_node1686919334907 = glueContext.create_dynamic_frame.from_catalog(
+    database="csvrefined",
+    table_name="contagemvotos",
+    transformation_ctx="AWSGlueDataCatalog_node1686919334907",
 )
 
 # Script generated for node Amazon S3
-AmazonS3_node1686775925157 = glueContext.write_dynamic_frame.from_options(
-    frame=AWSGlueDataCatalog_node1686775870407,
+AmazonS3_node1686919246406 = glueContext.write_dynamic_frame.from_options(
+    frame=AWSGlueDataCatalog_node1686919205366,
     connection_type="s3",
     format="glueparquet",
     connection_options={
-        "path": "s3://ex3sprint7bucket/Refined/2023/06/14/",
+        "path": "s3://ex3sprint7bucket/Refined/2023/06/16/Filme/",
         "partitionKeys": [],
     },
-    transformation_ctx="AmazonS3_node1686775925157",
+    transformation_ctx="AmazonS3_node1686919246406",
+)
+
+# Script generated for node Amazon S3
+AmazonS3_node1686919308812 = glueContext.write_dynamic_frame.from_options(
+    frame=AWSGlueDataCatalog_node1686919235365,
+    connection_type="s3",
+    format="glueparquet",
+    connection_options={
+        "path": "s3://ex3sprint7bucket/Refined/2023/06/16/Avaliacao/",
+        "partitionKeys": [],
+    },
+    transformation_ctx="AmazonS3_node1686919308812",
+)
+
+# Script generated for node Amazon S3
+AmazonS3_node1686919344209 = glueContext.write_dynamic_frame.from_options(
+    frame=AWSGlueDataCatalog_node1686919334907,
+    connection_type="s3",
+    format="glueparquet",
+    connection_options={
+        "path": "s3://ex3sprint7bucket/Refined/2023/06/16/ContagemVotos/",
+        "partitionKeys": [],
+    },
+    transformation_ctx="AmazonS3_node1686919344209",
 )
 
 job.commit()

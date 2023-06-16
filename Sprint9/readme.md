@@ -56,7 +56,9 @@ Com meu objetivo em mente selecionei as tabelas relacionadas as minhas pesquisas
 Aqui o codigo SQL que cria a nova tabela refinada com o JOIN necessário de csv com a json para análise. [link](Desafio\Sprint9\Tarefa4\joincsvjson6.sql)
 Notas: função CAST para alterar os data types e poder realizar os cálculos nas análises futuras.
 
-Modelo dimensional seria as Dimensões 'tempominutos', 'anolancamento', 'decada' e as medidas são 'vote_average', 'vote_count'. [Tempo x Votos]
+Criação do Modelo normalizada dimensional e as tabelas: [codigo](Desafio\Sprint9\Tarefa4\createdim.sql)
+As pastas dentro do do S3: [link](Desafio\Sprint9\Tarefa5\dimfilmes.jpg)
+Os arquivos parquet dentro do filmes: [link](Desafio\Sprint9\Tarefa5\parquetfilmes.jpg)
 
 Aqui esta as queries SQL que usei para VIEW os dados no AWS Athena e conferir se os dados estavam vindo como esperados.
 *Extra: para minha surpresa o banco de dados CSV possui mais votos que o banco de dados JSON resultante da API.*
