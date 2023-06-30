@@ -50,3 +50,7 @@ Ler livros de ficção, webtoons, ver series, confeitaria e modelos 3d VR. Gosto
 ## Sprint 9
 
 - [x] Nessa sprint pesquisamos e fizemos muito no AWS Glue, Athena e S3 para realizarmos o desafio, bem como aplicamos conhecimentos de modelagem relacional e modelagem dimensional nos exercicios propostos. 
+
+## Sprint 10
+
+- [x] Nessa sprint aprendemos na pratica como mexer no Quick Sight. Fizemos a dashboard para concluir nossa analise de dados. Fiz uma apresentação em Power Point para me ajudar na apresentação do video final. Todo o o conteudo está no Desafio/Sprint10 
